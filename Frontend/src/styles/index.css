@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-fleet-black text-white selection:bg-fleet-orange selection:text-white;
+  }
+}
